@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>993</width>
+    <height>528</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>16</x>
+     <y>12</y>
+     <width>491</width>
+     <height>501</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>
+Zoom Shortcut Generator:
+    1. Choose a mode - Create a new shortcut or Delete an existing one.
+    NOTE: You can also modify an existing shortcut with the Create option. 
+    Create:
+        1. Type the name of the shortcut you want to make in the Name field
+        2. Type the Zoom Meeting/Webinar URL in the URL field
+        3. Click the Create button.
+        4. In a few seconds your shortcut will be created and a dialog will
+            popup saying &quot;Zoom Shortcut Generated&quot; Click OK and your shortcut will
+            be on your desktop with Zoom's icon and the name you typed in to create
+            it.
+            
+    Delete:
+        1. Type the name of the existing Zoom shortcut you want to delete in the
+            Name field.
+        2. Click the Delete button.
+        3. In a few seconds your shortcut will be deleted and a dialog will popup
+            saying &quot;Zoom Shortcut Deleted&quot; Click OK and your shortcut will not be
+            on your desktop.
+
+            
+Zoom Link Extractor:
+    1. Type the name of the existing Zoom shortcut you want to get the link
+        from.
+    2. Click the Extract Link button.
+    3. A popup will show showing the extracted link and it will be copied to
+        your clipboard.
+</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>-10</y>
+     <width>41</width>
+     <height>661</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>21</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>10</y>
+     <width>461</width>
+     <height>511</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Pro Tips:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;- You can drag and drop a url or web shortcut into the shortcut generator and it&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;will auto-fill the fields for generating a Zoom shortcut. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Desktop Help:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;- You may see a half-visible folder on your desktop after generating a Zoom &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;shortcut. Do NOT delete this. It is critical for the shortcut to work. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,5 @@
+PyQt5
+winshell
+win32com
+pywin32
+pyperclip
